@@ -1,4 +1,4 @@
-**Sparkify Data Lake**
+# Sparkify Data Lake
 
 The enclosed code configures AWS IAM credentials to read data from a public AWS S3 bucket, udacity-dend. Two files, i.e., log and songs, will be read using a Spark instance and used to create a star schema using the SQL functions in the Pyspark.sql module. These new tables will then be written to parquet files in a user-supplied AWS S3 URL. The following are user-required parameters that should be populated in the **dl.cfg** file:
 
